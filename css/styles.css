@@ -208,7 +208,10 @@ a{
 }
 .team-list{
     display: flex;
+    justify-content: space-between;
     flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
     gap: 24px;
 }
 .team-item{
@@ -216,10 +219,10 @@ a{
     border-radius: 0 0 4px 4px;
     text-align: center;
     padding: 24px 16px;
-    max-width: calc((100% - 48px) / 3);
-    flex: 1 1 calc((100% - 48px)/3);
-
+    flex: 0 1 calc((100% - 48px)/3);
+    box-sizing: border-box;
  }
+ 
  .team-item img{
     display: block;
     max-width: 100%;

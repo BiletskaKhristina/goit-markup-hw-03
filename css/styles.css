@@ -49,6 +49,7 @@ a{
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .header .container{
     display: flex;
@@ -58,6 +59,7 @@ a{
 .nav{
     display: flex;
     align-items:center ;
+    gap: 76px;
 
 }
 .logo {
@@ -68,15 +70,14 @@ a{
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-   
-}
-.logo{
      margin-right: 76px;
     display: block;
     line-height: 1.17;
     padding: 24px 0;
+    
    
 }
+
 .logo span {
     color: #2e2f42;
 }

@@ -186,10 +186,12 @@ a{
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
+    padding: 120px 0; 
 }
 
 .features-item {
     background-color: #fff;
+    padding: 24px;
     width: calc((100% -  72px) / 4);
 }
 .features-title {

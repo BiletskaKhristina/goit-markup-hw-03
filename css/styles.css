@@ -38,7 +38,7 @@ a{
  .container { 
   max-width: 1158px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,7 +52,6 @@ a{
     justify-content: space-between;
 }
 .header .container{
-    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
@@ -61,7 +60,7 @@ a{
 .nav{
     display: flex;
     align-items: center ;
-    gap: 76px;
+    gap: 40px;
 
 }
 .logo {
@@ -187,7 +186,7 @@ a{
 
 .features-item {
     background-color: #fff;
-    width: calc((100%-72px) / 4);
+    width: calc((100% -  72px) / 4);
 }
 .features-title {
     font-size: 20px;
@@ -245,7 +244,7 @@ a{
 .team-title,
 .portfolio-title {
     font-size: 36px;
-    text-align:center;
+    text-align: center;
     
 }
 .features-text,
@@ -283,6 +282,7 @@ a{
     margin-bottom: 16px;
 
 }
+
 .footer-text{
     color: #f4f4fd;
     max-width: 264px;

@@ -48,7 +48,7 @@ a{
 }
 .header-container {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 .header .container{
     display: flex;
@@ -68,6 +68,7 @@ a{
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
    
 }
 

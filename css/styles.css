@@ -145,6 +145,8 @@ a{
     margin: 0 auto 48px;
 }
 .hero-btn {
+    display: inline-block;
+    text-align: center;
     cursor: pointer;
     background-color: #4d5ae5;
     color: #ffffff;

@@ -69,6 +69,9 @@ a{
     letter-spacing: 0.03em;
     color: #4d5ae5;
     margin-right: 76px;
+    display: block;
+    line-height: 1.17;
+    padding: 24px 0;
    
 }
 

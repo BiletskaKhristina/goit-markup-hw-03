@@ -50,16 +50,13 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.header .container{
-    align-items: center;
-    justify-content: space-between;
     gap: 40px;
 }
 
+
 .navigation{
     display: flex;
-    align-items: center ;
+    align-items: center;
     gap: 40px;
 
 }
@@ -71,10 +68,10 @@ a{
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-     margin-right: 76px;
     display: block;
     line-height: 1.17;
     padding: 24px 0;
+    margin: 0;
     
    
 }
@@ -90,7 +87,7 @@ a{
 }
 
 .nav-link{
-      display: block;
+    display: block;
     padding: 24px 0;
     font-weight:500;
     color: #2e2f42;
@@ -108,7 +105,8 @@ a{
    
  /*=========CONTACTS=========*/
  .contacts {
-    font-style: normal;
+    display: flex;
+    align-items: center;
     margin-left: auto;
 }
 

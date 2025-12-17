@@ -54,11 +54,13 @@ a{
 .header .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .nav{
     display: flex;
-    align-items:center ;
+    align-items: center ;
     gap: 76px;
 
 }

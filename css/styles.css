@@ -48,12 +48,17 @@ a{
 }
 .header-container {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    justify-content: space-between;
+    
 }
+
 
 .navigation{
     display: flex;
     align-items: center;
+    
+
 }
 .header-logo{
     margin-right: 76px;
@@ -81,7 +86,7 @@ a{
 
 .nav-list {
     display: flex;
-    gap: 0; 
+    gap: 40px; 
 }
 
 .nav-link{
@@ -216,7 +221,7 @@ a{
     gap: 24px;
 }
 .team-item{
-    width: calc(100% - 72px) / 4;
+    padding: 0;
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
  }
@@ -244,7 +249,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2e2f42;
+color:#2e2f42;
 margin: 8px 0 4px;
 }
 .team-position{
@@ -253,7 +258,7 @@ margin: 8px 0 4px;
     margin: 0;
 }
  .team-card-content{
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
  }
 /*============ PORTFOLIO =====================*/
@@ -279,7 +284,7 @@ margin-bottom: 72px;
 }
 .portfolio-card {
     background-color: #ffffff;
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
  
 }
 .portfolio-info {

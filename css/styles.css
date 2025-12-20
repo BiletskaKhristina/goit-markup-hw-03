@@ -45,6 +45,7 @@ a{
 /*==================HEADER=========== */
 .header{
     border-bottom: 1px solid #e7e9fc;
+    gap: 40px;
 }
 .header-container {
     display: flex;
@@ -52,14 +53,9 @@ a{
     justify-content: space-between;
     
 }
-
-
 .navigation{
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    
-
 }
 .header-logo{
     margin-right: 76px;

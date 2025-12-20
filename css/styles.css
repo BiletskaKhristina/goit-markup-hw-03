@@ -44,20 +44,19 @@ a{
 }
 /*==================HEADER=========== */
 .header{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 76px;
+
 }
 
 
 .navigation{
     display: flex;
     align-items: center;
-    gap: 40px;
+   
 
 }
 .logo {
@@ -71,7 +70,7 @@ a{
     display: block;
     line-height: 1.17;
     padding: 24px 0;
-    margin: 0;
+    margin-right: 76px;
     
    
 }
@@ -221,7 +220,6 @@ a{
     background-color:#fff;
     border-radius: 0 0 4px 4px;
     text-align: center;
-    padding: 32px 16px;
     box-sizing: border-box;
  }
 
@@ -257,7 +255,7 @@ margin: 8px 0 4px;
     margin: 0;
 }
  .team-card-content{
-    padding: 32px 0;
+    padding: 32px 16px;
     text-align: center;
  }
 /*============ PORTFOLIO =====================*/
@@ -283,16 +281,17 @@ margin-bottom: 72px;
 }
 .portfolio-card {
     background-color: #ffffff;
-    flex: calc((100% - 48px) / 3);
-    border: 1px solid #e7e7e7;
+    width: calc((100% - 48px) / 3);
     border-radius: 4px;
-    margin-bottom:48px;
     text-align: center;
-    padding: 32px 16px;
+   
 }
 .portfolio-info {
     padding:  32px 16px;
     text-align: center;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    text-align: left;
 }
 .portfolio-name{
     font-weight: 500;

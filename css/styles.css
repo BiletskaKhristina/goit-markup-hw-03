@@ -357,13 +357,19 @@ margin: 0;
     padding:  100px 0;
 }
 
+.footer .logo {
+    display:inline-block;
+    margin-bottom: 16px;
+
+}
+
 .footer .logo span{
     color: #f4f4fd;
 
 }
 .footer-logo {
     display: flex;
-    margin-bottom: 16px;
+    
 
 }
 
